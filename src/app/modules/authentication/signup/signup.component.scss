@@ -1,0 +1,286 @@
+a, button{
+    cursor: pointer;
+}
+  
+a{    
+    color: #004AAD !important;
+}
+
+
+.logo {
+      
+    padding: 20px 50px 41px;
+}
+
+.sign-up-form {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px 0.1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+}
+
+
+
+.form-style{
+  background-color: #e9ecef !important;
+  border: 1px solid #B4B4B4 !important;
+
+}
+
+.country-code{
+  border: 1px solid #B4B4B4;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-right: 13px;
+  width: 91px;
+  height: 40px;
+  padding: 5px 10px;
+  color: #646464;
+  text-align: center;
+
+}
+
+.text{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 14px;
+
+
+}
+
+span > i {
+  margin-right: 5px;
+}
+
+.priv-user{
+  border-bottom: 0.5px solid #B4B4B4;
+  padding: 2rem 0;
+  
+}
+
+
+ul{
+  list-style: none !important;
+  display: flex !important;
+
+}
+li {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #004AAD;
+
+
+}
+
+.ellipse{
+  display: block;
+  padding: 5px 20px;
+}
+
+.backimg {
+  background-image: url('../../assets/images/dao-logo-only-blocks\ \(1\).svg'); 
+ 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+}
+
+button {
+ width: 100% !important;
+ height: 40px;
+
+
+}
+
+.phone{
+  height: 40px !important;
+
+}
+
+
+.dao-logo {
+
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+ 
+}
+
+
+
+.para-1{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  margin-bottom: 2rem;
+
+  color: #696969;
+}
+
+.terms {
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #646464;
+  margin: 2rem 0;
+
+}
+
+
+.line-3 {
+margin-top: 3.5rem;
+  
+}
+
+.log-in {
+  padding-top: 1.5rem;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /*
+  border-top: 0.5px solid #B4B4B4;
+  */
+}
+
+
+.line {
+  margin-top: 3.5rem;
+}
+
+.heading-2 {
+ 
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  padding-top: 4px;
+  margin-bottom: 0 !important;
+  text-transform: uppercase;
+  color: #4B525D;
+
+}
+
+.img-last {
+  width: 18.56px;
+  height: 25.89px;
+}
+
+.last{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #4B525D;
+
+
+}
+
+
+
+.last-span {
+  display: block;
+  font-size: 8px;
+  line-height: 11px !important;
+
+  /* identical to box height */
+  color: #696969 !important;
+
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+footer {
+  padding-top: 3rem;
+}
+
+/* Media querry*/
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 580px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+ .priv-user{
+   padding-top: 0;
+   padding-bottom: 1rem;
+   margin: 0 auto;
+
+ }
+
+  .sign-up-form {
+      margin-bottom: 0;
+      box-shadow: none;
+  }
+
+  .backimg {
+      background-image: none;
+  }
+
+
+  ul{
+      margin: 0;
+  }
+
+  .last {
+      padding-left: 20px;
+  }
+
+  .line {
+      margin-top: 0;
+
+  }
+
+  button{
+      margin-bottom: 0.25rem;
+  }
+
+
+  .log-in {
+
+      font-size: 12px;
+      border-top: none;
+    
+      
+  }
+
+  .line-3 {
+      display: none;
+  }
+
+
+  .terms {
+      margin: 0;
+      font-size: 8px;
+      padding: 10px 0 !important;
+
+  }
+
+  footer {
+      padding-top: 1.5rem;
+  }
+  
+  .last-span {
+      padding-top: 5px;
+  }
+
+  
+
+
+}
